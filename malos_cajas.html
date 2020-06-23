@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/estilos2.css">
+  <title>Pagina fija con cajas</title>
+  <style media="screen">
+    .caja{
+      width: 285px;
+      height: 250px;
+      margin: 5px;
+      padding: 10px;
+      border: 2px solid #000;
+      background-color: rgba(1, 20, 9, 0.78);
+      color: white;
+      font-size: 0.9em;
+      float: left;
+    }
+
+.caja:hover{
+  background: rgb(6, 57, 75);
+  transition: .4s;
+  /*
+  TRANSFORMACION FLOTANTE
+
+  -webkit-transform: scale(1.091);
+  -moz-transform: scale(1.091);
+  -ms-transform: scale(1.091);
+  -o-transform: scale(1.091);
+  transform: scale(1.091);
+  */
+
+  /*
+  TRANSFORMACION DE INCLINACION
+
+  -webkit-transform: skewX(4deg);
+  -moz-transform: skewX(4deg);
+  -ms-transform: skewX(4deg);
+  -o-transform: skewX(4deg);
+  transform: skewX(4deg);
+  */
+
+
+  /*
+  TRANSFORMACION DE ROTACION DE CUADROS
+
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+  */
+
+  /*
+  TRANSFORMACION DE TRANSLACION EN X && Y
+
+  -webkit-transform: translate(10px,2px);
+  -moz-transform: translate(10px,2px);
+  -ms-transform: translate(10px,2px);
+  -o-transform: translate(10px,2px);
+  transform: translate(10px,2px);
+  */
+
+  /*TRANSFORMACION DE SCALA Y TODACION A 360 GRADOS*/
+  -webkit-transform: scale(1.1,1.1) rotate(360deg);
+  -moz-transform: scale(1.1,1.1) rotate(360deg);
+  -ms-transform: scale(1.1,1.1) rotate(360deg);
+  -o-transform: scale(1.1,1.1) rotate(360deg);
+  transform: scale(1.1,1.1) rotate(360deg);
+
+}
+    img{
+      float: left;
+      margin-right: 10px;
+    }
+
+    footer{
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Historias de dioses malos</h1>
+  </header>
+  <div class="caja">
+    <img src="img1.jpg" width="130" height="120">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus harum enim, corporis iste sequi consequuntur tenetur esse maxime eius quia, fugit accusamus alias voluptas laboriosam repudiandae veniam totam asperiores explicabo!</p>
+  </div>
+  <div class="caja">
+    <img src="img2.jpg" width="130" height="120">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora.</p>
+  </div>
+  <div class="caja">
+    <img src="img3.jpg" width="130" height="120">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora.</p>
+  </div>
+  <div class="caja">
+    <img src="img4.jpg" width="130" height="120">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora.</p>
+  </div>
+  <div class="caja">
+    <img src="img1.jpg" width="130" height="120">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora.</p>
+  </div>
+  <div class="caja">
+    <img src="img2.jpg" width="130" height="120">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora.</p>
+  </div>
+  <footer>
+  <h3 class="copy">Todos los derechos reservados&copy; 2019-05-16</h3>
+  <nav>
+    <ul>
+      <li><a href="#">Afrodita</a>&nbsp;|</li>
+      <li><a href="#">Afrodita</a>&nbsp;|</li>
+      <li><a href="#">Afrodita</a>&nbsp;|</li>
+      <li><a href="#">Afrodita</a>&nbsp;|</li>
+      <li><a href="#">Afrodita</a>&nbsp;|</li>
+      <li><a href="#">Afrodita</a>&nbsp;|</li>
+      <li><a href="#">Hercules</a></li>
+    </ul>
+  </nav>
+  </footer>
+</body>
+</html>

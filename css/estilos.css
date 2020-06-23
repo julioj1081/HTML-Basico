@@ -1,0 +1,93 @@
+
+  aside, article, section, nav, header, footer{
+    display:block;
+    margin: 0;
+    padding: 0;
+  }
+  html{
+    backgroung:#fff;
+  }
+
+  body{
+    width: 970px;
+    margin: 0 auto;
+  }
+  p, h1, h2, h3{
+    margin: 0;
+    padding: 0;
+  }
+  /*FUENTES*/
+  h1{
+    color#fff;
+    font-size:2.2em;
+    text-align:center;
+  }
+  h2{
+    font-size:1.8em;
+    text-align:center;
+  }
+  p{
+    padding-left:1em;
+    padding-right:1em;
+    padding-top:1em;
+    font-size:12px;
+  }
+
+  header{
+    height: 90px;
+    background:rgba(156, 126, 0, 0.86);
+  }
+  #columna1{
+    height: 460px;
+    background:#ab8a6c;
+    width: 180px;
+    float:left;
+  }
+  #columna2{
+    height: 460px;
+    background:#ccb18e;
+    width: 610px;
+    float:left;
+
+  }
+  #columna3{
+    height: 460px;
+    background:#ab8a6c;
+    width: 180px;
+    float:right;
+  }
+  footer{
+    height: 60px;
+    clear:both;
+    background:#593939;
+  }
+
+  .izqui{
+    float:left;
+    margin-right:10px;
+  }
+  .derec{
+    float:right;
+    margin-left:10px;
+  }
+
+  .copy{
+    font-size:.9em;
+    color:#fff;
+    text-align:center;
+  }
+  /*MENU*/
+  nav{
+    font-size:.8em;
+    color:#f2e3b6;
+    text-align:center;
+  }
+  ul, li{
+    display:inline;
+  }
+  a{
+    text-decoration:none;
+    font-size:1em;
+    color:#f2e3b6;
+    text-align:center;
+  }

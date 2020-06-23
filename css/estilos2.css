@@ -1,0 +1,69 @@
+<style media="screen">
+  header, article, footer{
+    display:block;
+    margin:0;
+    padding: 0;
+  }
+  body{
+    width: 960px;
+    background:rgba(78, 119, 61, 0.75);
+    margin:0 auto;
+  }
+  html{
+    background:#fff;
+    margin: 0;
+    padding: 0;
+  }
+  header{
+    height: 90px;
+    background:#76a68b;
+  }
+  article{
+    margin-top:-20px;
+    height: 460px;
+    background:#bcd5b0;
+  }
+  footer{
+    margin-top:-22px;
+    height: 80px;
+    background:#898c70;
+  }
+  .izqui{
+    float:left;
+    margin-right:1em;
+  }
+  .derec{
+    float:right;
+    margin-left:1em:
+  }
+  .abajo{
+    margin-top:1em;
+  }
+  .copy{
+    font-size:.9em;
+    color:#fff;
+    text-align:center;
+  }
+
+  /*MENU*/
+  nav{
+    font-size:.8em;
+    color:#f2e3b6;
+    text-align:center;
+  }
+  ul, li{
+    display:inline;
+  }
+  a{
+    text-decoration:none;
+    font-size:1em;
+    color:#f2e3b6;
+    text-align:center;
+  }
+  h1{
+    margin: 0;
+    padding: 20px;
+    text-align:center;
+  }
+
+</style>

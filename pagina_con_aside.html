@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pagina de dos columnas</title>
+  <style media="screen">
+  aside,article,footer,section, nav, header{
+    display:block;
+    margin: 0;
+    padding: 0;
+  }
+  p,h1,h2,h3{
+    padding: 0;
+    margin: 0;
+  }
+  html,body{
+    margin: 0;
+    padding: 0;
+  }
+  html{
+    background:#Fff;
+  }
+  body{
+    background:#ff6;
+    margin: 0 auto;
+    width: 960px;
+  }
+  header{
+    height: 90px;
+    background:#76a68b;
+  }
+  article{
+    height: 420px;
+    width: 600px;
+    background:#bcd5b0;
+    float:left;
+  }
+  aside{
+    height: 420px;
+    width: 360px;
+    background:#0c9;
+    float:right;
+  }
+  footer{
+    height:60px;
+    background:#898c70;
+    /*Este comando elimina el float porque se amontona con el aside y el article*/
+    clear:both;
+  }
+
+  /*FUENTES*/
+  h1{
+    color#fff;
+    font-size:2.2em;
+    text-align:center;
+  }
+  h2{
+    font-size:1.8em;
+    text-align:center;
+  }
+  p{
+    padding-left:1em;
+    padding-right:1em;
+    padding-top:1em;
+    font-size:12px;
+  }
+  .izqui{
+    float:left;
+    margin-right:10px;
+  }
+  .derec{
+    float:right;
+    margin-left:10px;
+  }
+
+  .copy{
+    font-size:.9em;
+    color:#fff;
+    text-align:center;
+  }
+
+  /*MENU*/
+  nav{
+    font-size:.8em;
+    color:#f2e3b6;
+    text-align:center;
+  }
+  ul, li{
+    display:inline;
+  }
+  a{
+    text-decoration:none;
+    font-size:1em;
+    color:#f2e3b6;
+    text-align:center;
+  }
+
+/*PARA TABLETA*/
+  @media only screen and (max-width: 768px){
+    body{
+      width: 80%;
+    }
+    .izqui{
+      clear: both;
+      width: 100%;
+    }
+    .derec{
+      clear: both;
+      width: 100%;
+    }
+  }
+
+/*PARA MOVIL*/
+  @media only screen and (max-width: 480px){
+    body{
+      width: 320px;
+    }
+    article{
+      clear: both;
+      width: 100%;
+      height: auto;
+    }
+    aside{
+      clear: both;
+      width: 100%;
+      height: auto;
+    }
+    .izqui{
+      clear: both;
+      height: auto;
+      width: 200px;
+    }
+    .derec{
+      clear: both;
+      height: auto;
+      width: 200px;
+    }
+    nav, ul, li{
+      text-align: left;
+      font-size: .8em;
+    }
+    a{
+      text-align: left;
+      letter-spacing: normal;
+    }
+    h3{
+      padding-top: 1em;
+    }
+  }
+  /*FORMATO TABLETA Y RESOLUCCION MAXIMA*/
+  @media only screen and (min-width: 481px) and (max-width: 768px){
+    body{
+      width: 90%;
+    }
+    article{
+      clear: both;
+      width: 100%;
+      height: auto;
+    }
+    aside{
+      clear: both;
+      width: 100%;
+      height: auto;
+    }
+    .izqui{
+      clear: both;
+      height: auto;
+      width: 200px;
+    }
+    .derec{
+      clear: both;
+      height: auto;
+      width: 200px;
+    }
+  }
+  </style>
+</head>
+<body>
+<header><h1>Historia de dioses</h1><h2>y Religiones locas</h2></header>
+<section>
+  <article class="">
+    <p><img src="img1.jpg" width="220px" height="300px" class="izqui">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis,
+       maiores in nobis eum unde. Commodi, dolor rerum sit Lorem ipsum dolor
+       sit amet, consectetur adipisicing elit. Ipsam corrupti, natus ipsum mollitia,
+       voluptate culpa totam porro numquam cumque ex quis repudiandae.
+       Quibusdam nisi aut expedita eos at, mollitia dicta.
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis,
+       maiores in nobis eum unde. Commodi, dolor rerum sit Lorem ipsum dolor
+       sit amet, consectetur adipisicing elit. Ipsam corrupti, natus ipsum mollitia,
+       voluptate culpa totam porro numquam cumque ex quis repudiandae.
+       Quibusdam nisi aut expedita eos at, mollitia dicta.
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis,
+       maiores in nobis eum unde. Commodi, dolor rerum sit Lorem ipsum dolor
+       sit amet, consectetur adipisicing elit. Ipsam corrupti, natus ipsum mollitia,
+       voluptate culpa totam porro numquam cumque ex quis repudiandae.
+       Quibusdam nisi aut expedita eos at, mollitia dicta.
+     </p>
+
+    <p><img src="img3.jpg" width="200px" height="170px" class="derec">INICIO DE SEGUNDO PARRAFOet, consectetur adipisicing elit.
+       Rem praesentium vero numquam ratione neque dolores deleniti officiis. Suscipit corporis impedit ullam, temporibus cum odio
+        voluptatum tempora ab cupiditate amet, nihil!
+      </p>
+  </article>
+  <aside>
+    <p><img src="img2.jpg" width="220px" height="300px" class="derec">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+       Natus, optio. Excepturi quasi accusamus sunt vero odit ut! Doloremque,
+       dolores tempore quo laboriosam quidem et tenetur ea enim sequi,
+       aperiam ab. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+       Modi pariatur nostrum deleniti, veniam nulla nihil ea accusamus corporis voluptas,
+       quis eos architecto quasi illo est incidunt tempore distinctio necessitatibus perspiciatis!
+     </p>
+  </aside>
+</section>
+<footer>
+  <h3 class="copy">Todos los derechos reservados&copy; 2019-05-16</h3>
+<nav>
+  <ul>
+    <li><a href="#">Afrodita</a>&nbsp;|</li>
+    <li><a href="#">Afrodita</a>&nbsp;|</li>
+    <li><a href="#">Afrodita</a>&nbsp;|</li>
+    <li><a href="#">Afrodita</a>&nbsp;|</li>
+    <li><a href="#">Afrodita</a>&nbsp;|</li>
+    <li><a href="#">Afrodita</a>&nbsp;|</li>
+    <li><a href="#">Hercules</a></li>
+  </ul>
+</nav>
+</footer>
+</body>
+</html>
